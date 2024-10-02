@@ -1,0 +1,79 @@
+{
+    "sidebar": {
+        "main_header": "Michael Burdick",
+        "subheader": "DevOps/Full Stack Engineer",
+        "body_text": "Howdy! I'm a Software Engineer currently with Audible, based out of Seattle, Washington. I love working in a field that lets me constantly learn and grow, and apply that knowledge to solve real-world problems for people. Let's build solutions together!",
+        "social_buttons": []
+    },
+    "main_feed": [
+        {
+            "type": "block",
+            "text": "Born and raised in Dallas, Texas, I graduated from The University of Texas at Dallas in 2013 with a double major of Computer Science and Arts and Technology (with a focus on video game design). I've always been interested in the intersection of technology and design, and on creating software which is built with real human workflows in mind, software as a means to an end of allowing people to solve bigger problems and do more. Since then, I've worked at Capital One, Microsoft, and most recently at Audible trying to solve problems at an enterprise scale."
+        },
+        {
+            "type": "list",
+            "header": "Work Experience",
+            "items": [
+                {
+                    "header": "Audible",
+                    "subheader": "Software Development Engineer II",
+                    "text": "Devloping and maintaining an automated testing pipeline, leveraging Jenkins and AWS Device Farm to run, monitor, and report on tests for Audible's mobile apps",
+                    "tags": ["Java", "AWS", "Jenkins", "Automation"],
+                    "side_header": "October 2022 - Present"
+                },
+                {
+                    "header": "Microsoft",
+                    "subheader": "Software Engineer",
+                    "text": "Designed and deployed features for internal tooling allowing the entire Azure organization to track and respond to KPI-based action items. Assisted in rollout of Azure systems to Qatar region for 2022 World Cup",
+                    "tags": ["Azure", "C#", "Angular"],
+                    "side_header": "March 2020 - October 2022"
+                },
+                {
+                    "header": "Capital One",
+                    "subheader": "Associate Software Engineer",
+                    "text": "Designed, deployed, and maintained a serverless CICD pipeline supporting dev teams across the Financial Services org. Supported front- and back-end for Auto Refinance page",
+                    "tags": ["AWS", "Serverless", "Automation", "Java", "Angular"],
+                    "side_header": "September 2017 - March 2020"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "header": "Projects",
+            "items": [
+                {
+                    "header": "Librarium",
+                    "subheader": "more stuff",
+                    "text": "",
+                    "tags": [],
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "header": "Cast Through Time",
+                    "subheader": "more stuff",
+                    "text": "",
+                    "tags": [],
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "header": "Spanish Verb Conjugator",
+                    "subheader": "more stuff",
+                    "text": "",
+                    "tags": [],
+                    "image": "",
+                    "link": ""
+                },
+                {
+                    "header": "Maskmaker",
+                    "subheader": "more stuff",
+                    "text": "",
+                    "tags": [],
+                    "image": "",
+                    "link": ""
+                }
+            ]
+        }
+    ]
+}
