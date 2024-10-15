@@ -1,6 +1,10 @@
-function BodyBlock() {
+function BodyBlock({section}) {
     return (
-        <div>Here is a Body Block</div>
+        <div>
+            <p>{section.header}</p>
+            <p>{section.text}</p>
+            <br/>
+        </div>
     )
 }
 

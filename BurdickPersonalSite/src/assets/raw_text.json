@@ -8,6 +8,7 @@
     "main_feed": [
         {
             "type": "block",
+            "header": "About Me",
             "text": "Born and raised in Dallas, Texas, I graduated from The University of Texas at Dallas in 2013 with a double major of Computer Science and Arts and Technology (with a focus on video game design). I've always been interested in the intersection of technology and design, and on creating software which is built with real human workflows in mind, software as a means to an end of allowing people to solve bigger problems and do more. Since then, I've worked at Capital One, Microsoft, and most recently at Audible trying to solve problems at an enterprise scale."
         },
         {
@@ -43,33 +44,33 @@
             "items": [
                 {
                     "header": "Librarium",
-                    "subheader": "more stuff",
+                    "subheader": "Collection Management System",
                     "text": "",
-                    "tags": [],
+                    "tags": ["React", "Redux", "Python", "Flask", "AWS Lambda", "SQLite"],
                     "image": "",
                     "link": ""
                 },
                 {
                     "header": "Cast Through Time",
-                    "subheader": "more stuff",
+                    "subheader": "One-Page Responsive Website",
                     "text": "",
-                    "tags": [],
+                    "tags": ["React", "Redux", "Python", "Flask", "AWS Lambda", "S3", "AWS API Gateway"],
                     "image": "",
                     "link": ""
                 },
                 {
                     "header": "Spanish Verb Conjugator",
-                    "subheader": "more stuff",
+                    "subheader": "Gameified Learning Website",
                     "text": "",
-                    "tags": [],
+                    "tags": ["React", "Redux", "Vite.js", "Python", "Flask", "AWS Lambda", "AWS API Gateway"],
                     "image": "",
                     "link": ""
                 },
                 {
                     "header": "Maskmaker",
-                    "subheader": "more stuff",
-                    "text": "",
-                    "tags": [],
+                    "subheader": "Serverless RESTful API",
+                    "text": "A serverless API built in Node.js that is capable of generating fake personal information for tabletop games, utilizing Claudia.js to deploy to AWS and consumed by Dockerized applications",
+                    "tags": ["Node.js", "Express", "Docker", "AWS Lambda", "API Gateway"],
                     "image": "",
                     "link": ""
                 }

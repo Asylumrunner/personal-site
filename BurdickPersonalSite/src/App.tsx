@@ -6,10 +6,10 @@ function App() {
 
   return (
     <div className="flex size-full flex-row">
-      <div className="size-full basis-1/2">
+      <div className="size-full basis-1/3">
         <Sidebar />
       </div>
-      <div className="size-full basis-1/2">
+      <div className="size-full basis-2/3">
         <ScrollFeed />
       </div>
     </div>

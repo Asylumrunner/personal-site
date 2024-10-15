@@ -1,12 +1,15 @@
 import MapItem from "./MapItem"
+import {v4 as uuidv4} from 'uuid';
 
-function MapList() {
+function MapList({section}) {
+    const mapItems = section.items.map((item) => {
+        return <MapItem key={uuidv4()} listItem={item}/>
+    })
     return (
-        <div>Here is a Map List
-            <div>It contains a bunch of Map Items</div>
-            <MapItem />
-            <MapItem />
-            <MapItem />
+        <div>
+            <p>{section.header}</p>
+            {mapItems}
+            <br/>
         </div>
     )
 }
