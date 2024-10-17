@@ -45,7 +45,7 @@
                 {
                     "header": "Librarium",
                     "subheader": "Collection Management System",
-                    "text": "",
+                    "text": "A web-based media collection database system built in React atop a serverless Flask API and SQLite, designed to help manage a large collection of physical media.",
                     "tags": ["React", "Redux", "Python", "Flask", "AWS Lambda", "SQLite"],
                     "image": "",
                     "link": ""
@@ -53,7 +53,7 @@
                 {
                     "header": "Cast Through Time",
                     "subheader": "One-Page Responsive Website",
-                    "text": "",
+                    "text": "A website built in React for players returning to the tabletop game Magic: The Gathering, helping players to catch up on changes to the game since they last played.",
                     "tags": ["React", "Redux", "Python", "Flask", "AWS Lambda", "S3", "AWS API Gateway"],
                     "image": "",
                     "link": ""
@@ -61,7 +61,7 @@
                 {
                     "header": "Spanish Verb Conjugator",
                     "subheader": "Gameified Learning Website",
-                    "text": "",
+                    "text": "A React page built to help Spanish learners practice their verb conjugation, allowing them to learn vocabulary and practice conjugation in various tenses and moods.",
                     "tags": ["React", "Redux", "Vite.js", "Python", "Flask", "AWS Lambda", "AWS API Gateway"],
                     "image": "",
                     "link": ""
@@ -75,6 +75,25 @@
                     "link": ""
                 }
             ]
+        }
+    ],
+    "socials": [
+        {
+            "url": "https://github.com/Asylumrunner",
+            "name": "Github"
+        },
+        {
+            "url": "https://www.linkedin.com/in/michael-burdick-774b0a85/",
+            "name": "LinkedIn"
+        },
+        {
+            "url": "https://www.blogofarcanesecrets.com/p/second-pass-at-ascii-open-world-map",
+            "name": "Substack",
+            "network_override": "substack"
+        },
+        {
+            "url": "mailto:michael@mpburdick.com",
+            "name": "Email"
         }
     ]
 }

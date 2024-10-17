@@ -7,7 +7,7 @@ function MapList({section}) {
     })
     return (
         <div>
-            <p>{section.header}</p>
+            <p className="font-oswald text-2xl mb-4">{section.header}</p>
             {mapItems}
             <br/>
         </div>

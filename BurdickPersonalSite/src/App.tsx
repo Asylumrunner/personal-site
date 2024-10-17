@@ -5,8 +5,8 @@ import Sidebar from './components/Sidebar'
 function App() {
 
   return (
-    <div className="flex size-full flex-row">
-      <div className="size-full basis-1/3">
+    <div className="flex size-full flex-row font-dm-sans">
+      <div className="size-full basis-1/3 pr-10">
         <Sidebar />
       </div>
       <div className="size-full basis-2/3">
