@@ -15,11 +15,11 @@ function MapItem({listItem}) {
     })
 
     return (
-        <div className="flex flex-row mb-5">
-            <div className="basis-1/3">
+        <div className="flex flex-col md:flex-row mb-5">
+            <div className="md:basis-1/3">
                 {sideheader_content}
             </div>
-            <div className="basis-2/3">
+            <div className="md:basis-2/3">
                 <p className="text-xl">{listItem.header}</p>
                 <p className="text-lg mb-1">{listItem.subheader}</p>
                 <p className="mb-1">{listItem.text}</p>
