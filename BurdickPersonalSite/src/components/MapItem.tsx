@@ -7,7 +7,8 @@ function MapItem({listItem}) {
     if (listItem.side_header) {
         sideheader_content = (<p className="text-slate-400">{listItem.side_header}</p>)
     } else {
-        sideheader_content = (<img src={listItem.image} />)
+        var image_path = `/img/${listItem.image}`
+        sideheader_content = (<a href={listItem.link} target="_blank"><img src={image_path} /></a>)
     }
 
     const tags = listItem.tags.map((tag: any) => {
@@ -16,7 +17,7 @@ function MapItem({listItem}) {
 
     return (
         <div className="flex flex-col md:flex-row mb-5">
-            <div className="md:basis-1/3">
+            <div className="md:basis-1/3 mt-2 mr-3">
                 {sideheader_content}
             </div>
             <div className="md:basis-2/3">

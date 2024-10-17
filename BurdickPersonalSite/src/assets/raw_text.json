@@ -19,21 +19,21 @@
                     "header": "Audible",
                     "subheader": "Software Development Engineer II",
                     "text": "Devloping and maintaining an automated testing pipeline, leveraging Jenkins and AWS Device Farm to run, monitor, and report on tests for Audible's mobile apps",
-                    "tags": ["Java", "AWS", "Jenkins", "Automation"],
+                    "tags": ["Java", "AWS", "Jenkins", "DevOps"],
                     "side_header": "October 2022 - Present"
                 },
                 {
                     "header": "Microsoft",
                     "subheader": "Software Engineer",
                     "text": "Designed and deployed features for internal tooling allowing the entire Azure organization to track and respond to KPI-based action items. Assisted in rollout of Azure systems to Qatar region for 2022 World Cup",
-                    "tags": ["Azure", "C#", "Angular"],
+                    "tags": ["Azure", "C#", "Angular", ".NET"],
                     "side_header": "March 2020 - October 2022"
                 },
                 {
                     "header": "Capital One",
                     "subheader": "Associate Software Engineer",
                     "text": "Designed, deployed, and maintained a serverless CICD pipeline supporting dev teams across the Financial Services org. Supported front- and back-end for Auto Refinance page",
-                    "tags": ["AWS", "Serverless", "Automation", "Java", "Angular"],
+                    "tags": ["AWS", "Serverless", "DevOps", "Java", "Angular"],
                     "side_header": "September 2017 - March 2020"
                 }
             ]
@@ -46,32 +46,32 @@
                     "header": "Librarium",
                     "subheader": "Collection Management System",
                     "text": "A web-based media collection database system built in React atop a serverless Flask API and SQLite, designed to help manage a large collection of physical media.",
-                    "tags": ["React", "Redux", "Python", "Flask", "AWS Lambda", "SQLite"],
-                    "image": "",
+                    "tags": ["React", "Python", "Flask", "AWS Lambda", "SQLite"],
+                    "image": "castthroughtime.png",
                     "link": ""
                 },
                 {
                     "header": "Cast Through Time",
                     "subheader": "One-Page Responsive Website",
                     "text": "A website built in React for players returning to the tabletop game Magic: The Gathering, helping players to catch up on changes to the game since they last played.",
-                    "tags": ["React", "Redux", "Python", "Flask", "AWS Lambda", "S3", "AWS API Gateway"],
-                    "image": "",
-                    "link": ""
+                    "tags": ["React", "Python", "Flask", "AWS Lambda", "API Gateway"],
+                    "image": "castthroughtime.png",
+                    "link": "https://www.castthroughtime.com/"
                 },
                 {
                     "header": "Spanish Verb Conjugator",
                     "subheader": "Gameified Learning Website",
                     "text": "A React page built to help Spanish learners practice their verb conjugation, allowing them to learn vocabulary and practice conjugation in various tenses and moods.",
-                    "tags": ["React", "Redux", "Vite.js", "Python", "Flask", "AWS Lambda", "AWS API Gateway"],
-                    "image": "",
-                    "link": ""
+                    "tags": ["React", "Python", "Flask", "AWS Lambda", "API Gateway"],
+                    "image": "espanolverbconjugator.png",
+                    "link": "https://www.espanolverbconjugator.com/"
                 },
                 {
                     "header": "Maskmaker",
                     "subheader": "Serverless RESTful API",
                     "text": "A serverless API built in Node.js that is capable of generating fake personal information for tabletop games, utilizing Claudia.js to deploy to AWS and consumed by Dockerized applications",
                     "tags": ["Node.js", "Express", "Docker", "AWS Lambda", "API Gateway"],
-                    "image": "",
+                    "image": "castthroughtime.png",
                     "link": ""
                 }
             ]
