@@ -1,6 +1,7 @@
 import Tag from './Tag'
 import {v4 as uuidv4} from 'uuid';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function MapItem({listItem}) {
     var sideheader_content;
@@ -21,7 +22,7 @@ function MapItem({listItem}) {
                 {sideheader_content}
             </div>
             <div className="md:basis-2/3">
-                <p className="text-xl">{listItem.header}</p>
+                <p className="text-xl"> {!listItem.repo || <a href={listItem.repo} target="_blank"><FontAwesomeIcon icon={faGithub}/>{' '}</a>}{listItem.header}</p>
                 <p className="text-lg mb-1">{listItem.subheader}</p>
                 <p className="mb-1">{listItem.text}</p>
                 <div className="flex flex-row">{tags}</div>

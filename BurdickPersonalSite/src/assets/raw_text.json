@@ -48,6 +48,7 @@
                     "text": "A web-based media collection database system built in React atop a serverless Flask API and SQLite, designed to help manage a large collection of physical media.",
                     "tags": ["React", "Python", "Flask", "AWS Lambda", "SQLite"],
                     "image": "castthroughtime.png",
+                    "repo": "https://github.com/Asylumrunner/Librarium",
                     "link": ""
                 },
                 {
@@ -56,6 +57,7 @@
                     "text": "A website built in React for players returning to the tabletop game Magic: The Gathering, helping players to catch up on changes to the game since they last played.",
                     "tags": ["React", "Python", "Flask", "AWS Lambda", "API Gateway"],
                     "image": "castthroughtime.png",
+                    "repo": "https://github.com/Asylumrunner/CastThroughTime",
                     "link": "https://www.castthroughtime.com/"
                 },
                 {
@@ -64,6 +66,7 @@
                     "text": "A React page built to help Spanish learners practice their verb conjugation, allowing them to learn vocabulary and practice conjugation in various tenses and moods.",
                     "tags": ["React", "Python", "Flask", "AWS Lambda", "API Gateway"],
                     "image": "espanolverbconjugator.png",
+                    "repo": "https://github.com/Asylumrunner/spanish-trainer",
                     "link": "https://www.espanolverbconjugator.com/"
                 },
                 {
@@ -71,7 +74,8 @@
                     "subheader": "Serverless RESTful API",
                     "text": "A serverless API built in Node.js that is capable of generating fake personal information for tabletop games, utilizing Claudia.js to deploy to AWS and consumed by Dockerized applications",
                     "tags": ["Node.js", "Express", "Docker", "AWS Lambda", "API Gateway"],
-                    "image": "castthroughtime.png",
+                    "image": "",
+                    "repo": "https://github.com/Asylumrunner/Maskmaker",
                     "link": ""
                 }
             ]
@@ -87,7 +91,7 @@
             "name": "LinkedIn"
         },
         {
-            "url": "https://www.blogofarcanesecrets.com/p/second-pass-at-ascii-open-world-map",
+            "url": "https://www.blogofarcanesecrets.com/",
             "name": "Substack",
             "network_override": "substack"
         },
