@@ -9,7 +9,7 @@
         {
             "type": "block",
             "header": "About Me",
-            "text": "Born and raised in Dallas, Texas, I graduated from The University of Texas at Dallas in 2013 with a double major of Computer Science and Arts and Technology (with a focus on video game design). I've always been interested in the intersection of technology and design, and on creating software which is built with real human workflows in mind, software as a means to an end of allowing people to solve bigger problems and do more. Since then, I've worked at Capital One, Microsoft, and most recently at Audible trying to solve problems at an enterprise scale."
+            "text": ["Born and raised in Dallas, Texas, I graduated from The University of Texas at Dallas in 2017 with a B.S in Computer Science and a B.A in Arts and Technology (with a focus on Video Game Design). I moved to Seattle in March 2020 for the culture, the nature, and the big city vibes.", "I've always been interested in the intersection of technology and design, and on creating software which is built with real human workflows in mind, software as a means to an end of allowing people to solve bigger problems and do more. Since then, I've worked at Capital One, Microsoft, and most recently at Audible trying to solve problems at an enterprise scale.", "In my free time, I'm an avid traveler, an amateur game designer, a lousy cook, and a connoisseur of jazz, punk, and noise music."]
         },
         {
             "type": "list",
@@ -106,7 +106,7 @@
                 {
                     "header": "",
                     "subheader": "",
-                    "text": "Docker, Kubernetes, Terraform, AWS CloudFormation, Chef, Jenkins, Github Actions, Splunk, Elastic Stack",
+                    "text": "Docker, Kubernetes, Terraform, AWS CloudFormation, Chef, Jenkins, Github Actions, Azure DevOps, AWS Lambda, AWS API Gateway, Splunk, Elastic Stack",
                     "tags": [],
                     "side_header": "Build/Deploy and DevOps Tools"
 
