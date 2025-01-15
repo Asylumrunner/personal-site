@@ -2,7 +2,7 @@
     "sidebar": {
         "main_header": "Michael Burdick",
         "subheader": "DevOps/Full Stack Engineer",
-        "body_text": "Howdy! I'm a Software Engineer currently with Audible, based out of Seattle, Washington. I love working in a field that lets me constantly learn and grow, and apply that knowledge to solve real-world problems for people. Let's build solutions together!",
+        "body_text": "Howdy! I'm a Software Engineer based out of Seattle, Washington hailing from Dallas, Texas. DevOps by trade, Full-Stack by skillset, problem-solver by passion",
         "social_buttons": []
     },
     "main_feed": [
@@ -37,6 +37,11 @@
                     "side_header": "September 2017 - March 2020"
                 }
             ]
+        },
+        {
+            "type": "linked_header",
+            "header": "View Full Résumé",
+            "link": "/resume"
         },
         {
             "type": "list",
@@ -77,6 +82,41 @@
                     "image": "",
                     "repo": "https://github.com/Asylumrunner/Maskmaker",
                     "link": ""
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "header": "Familiar Technologies",
+            "items": [
+                {
+                    "header": "",
+                    "subheader": "",
+                    "text": "Java, Python, Javascript, Node.js, Groovy, SQL (including PostgreSQL, MySQL, and SQLite)",
+                    "tags": [],
+                    "side_header": "Programming Languages and DSLs"
+                },
+                {
+                    "header": "",
+                    "subheader": "",
+                    "text": "Typescript, React, Spring & Spring Boot, Flask, Express.js, Bootstrap",
+                    "tags": [],
+                    "side_header": "Libraries and Frameworks"
+                },
+                {
+                    "header": "",
+                    "subheader": "",
+                    "text": "Docker, Kubernetes, Terraform, AWS CloudFormation, Chef, Jenkins, Github Actions, Splunk, Elastic Stack",
+                    "tags": [],
+                    "side_header": "Build/Deploy and DevOps Tools"
+
+                },
+                {
+                    "header": "",
+                    "subheader": "",
+                    "text": "Amazon Web Services, Microsoft Azure",
+                    "tags": [],
+                    "side_header": "Clouds"
                 }
             ]
         }

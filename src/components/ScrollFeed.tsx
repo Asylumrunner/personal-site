@@ -2,6 +2,7 @@ import BodyBlock from "./BodyBlock"
 import MapList from "./MapList"
 import * as feedData from "../assets/raw_text.json"
 import {v4 as uuidv4} from 'uuid';
+import LinkedHeader from "./LinkedHeader";
 
 
 function ScrollFeed() {
@@ -11,6 +12,8 @@ function ScrollFeed() {
             return <BodyBlock key={uuidv4()} section={section}/>
         } else if (section.type == "list") {
             return <MapList key={uuidv4()} section={section}/>
+        } else if (section.type == "linked_header") {
+            return <LinkedHeader key={uuidv4()} section={section}/>
         }
     });
 
