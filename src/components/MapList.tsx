@@ -1,8 +1,8 @@
 import MapItem from "./MapItem"
 import {v4 as uuidv4} from 'uuid';
 
-function MapList({section}) {
-    const mapItems = section.items.map((item) => {
+function MapList({section} : {section: any}) {
+    const mapItems = section.items.map((item: any) => {
         return <MapItem key={uuidv4()} listItem={item}/>
     })
     return (

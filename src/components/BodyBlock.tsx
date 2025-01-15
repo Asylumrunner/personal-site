@@ -1,4 +1,4 @@
-function BodyBlock({section}) {
+function BodyBlock({section} : {section:any}) {
     
     const text = section.text.map((block: string) => {
         return (<div>{block}<br/><br/></div>)

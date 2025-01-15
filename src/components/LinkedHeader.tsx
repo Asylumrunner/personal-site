@@ -1,4 +1,4 @@
-function LinkedHeader({section}) {
+function LinkedHeader({section} : {section: any}) {
     return (<div>
         <a href={section.link}><p className="font-oswald text-xl mb-4">{section.header}</p></a>
     </div>)

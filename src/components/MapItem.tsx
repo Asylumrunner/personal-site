@@ -3,7 +3,7 @@ import {v4 as uuidv4} from 'uuid';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
-function MapItem({listItem}) {
+function MapItem({listItem} : {listItem: any}) {
     var sideheader_content;
     if (listItem.side_header) {
         sideheader_content = (<p className="text-slate-400">{listItem.side_header}</p>)
