@@ -9,7 +9,7 @@ function SocialButtons() {
     })
 
     return (
-        <div>{socials}</div>
+        <div className="mb-4">{socials}</div>
     )
 }
 

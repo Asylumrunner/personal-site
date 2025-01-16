@@ -9,7 +9,7 @@ function MapItem({listItem} : {listItem: any}) {
         sideheader_content = (<p className="text-slate-400">{listItem.side_header}</p>)
     } else {
         var image_path = `/img/${listItem.image}`
-        sideheader_content = (<a href={listItem.link} target="_blank"><img src={image_path} /></a>)
+        sideheader_content = (<a href={listItem.link} target="_blank"><img className="mb-2 md:mb-0" src={image_path} /></a>)
     }
 
     const tags = listItem.tags.map((tag: any) => {
@@ -23,7 +23,7 @@ function MapItem({listItem} : {listItem: any}) {
             </div>
             <div className="md:basis-2/3">
                 <p className="text-xl"> {!listItem.repo || <a href={listItem.repo} target="_blank"><FontAwesomeIcon icon={faGithub}/>{' '}</a>}{listItem.header}</p>
-                <p className="text-lg mb-1">{listItem.subheader}</p>
+                <p className="text-lg mb-1 italic">{listItem.subheader}</p>
                 <p className="mb-1">{listItem.text}</p>
                 <div className="flex flex-row">{tags}</div>
             </div>

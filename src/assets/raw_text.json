@@ -39,7 +39,7 @@
             ]
         },
         {
-            "type": "linked_header",
+            "type": "button",
             "header": "View Full Résumé",
             "link": "/resume"
         },
@@ -78,7 +78,7 @@
                     "header": "Maskmaker",
                     "subheader": "Serverless RESTful API",
                     "text": "A serverless API built in Node.js that is capable of generating fake personal information for tabletop games, utilizing Claudia.js to deploy to AWS and consumed by Dockerized applications",
-                    "tags": ["Node.js", "Express", "Docker", "AWS Lambda", "API Gateway"],
+                    "tags": ["Node", "Express", "Docker", "AWS Lambda", "API Gateway"],
                     "image": "maskmaker.png",
                     "repo": "https://github.com/Asylumrunner/Maskmaker",
                     "link": "https://www.maskmakerdemo.com"
@@ -117,6 +117,13 @@
                     "text": "Amazon Web Services, Microsoft Azure",
                     "tags": [],
                     "side_header": "Clouds"
+                },
+                {
+                    "header": "",
+                    "subheader": "",
+                    "text": "RESTful API Development, Serverless Architecture, Microservice Architecture, CI/CD Tool Development",
+                    "tags": [],
+                    "side_header": "Design Paradigms"
                 }
             ]
         }

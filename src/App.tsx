@@ -5,7 +5,7 @@ import Sidebar from './components/Sidebar'
 function App() {
 
   return (
-    <div className="flex size-full flex-col md:flex-row font-dm-sans">
+    <div className="flex w-full md:size-full flex-col md:flex-row font-dm-sans">
       <div className="size-full md:basis-1/3 pr-10">
         <Sidebar />
       </div>
