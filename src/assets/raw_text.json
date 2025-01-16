@@ -41,7 +41,7 @@
         {
             "type": "button",
             "header": "View Full Résumé",
-            "link": "/resume"
+            "link": "/public/resume.pdf"
         },
         {
             "type": "list",
@@ -54,7 +54,7 @@
                     "tags": ["React", "Python", "Flask", "AWS Lambda", "SQLite"],
                     "image": "castthroughtime.png",
                     "repo": "https://github.com/Asylumrunner/Librarium",
-                    "link": ""
+                    "link": "https://www.librarium.com"
                 },
                 {
                     "header": "Cast Through Time",
