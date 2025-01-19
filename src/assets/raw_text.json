@@ -48,15 +48,6 @@
             "header": "Projects",
             "items": [
                 {
-                    "header": "Librarium",
-                    "subheader": "Collection Management System",
-                    "text": "A web-based media collection database system built in React atop a serverless Flask API and SQLite, designed to help manage a large collection of physical media.",
-                    "tags": ["React", "Python", "Flask", "AWS Lambda", "SQLite"],
-                    "image": "castthroughtime.png",
-                    "repo": "https://github.com/Asylumrunner/Librarium",
-                    "link": "https://www.librarium.com"
-                },
-                {
                     "header": "Cast Through Time",
                     "subheader": "One-Page Responsive Website",
                     "text": "A website built in React for players returning to the tabletop game Magic: The Gathering, helping players to catch up on changes to the game since they last played.",
