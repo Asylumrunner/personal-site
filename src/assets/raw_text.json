@@ -16,11 +16,18 @@
             "header": "Work Experience",
             "items": [
                 {
+                    "header": "Meta",
+                    "subheader": "Software Engineer",
+                    "text": "Working to support and improve the Facebook Marketplace experience globally",
+                    "tags": [],
+                    "side_header": "June 2025 - Present"
+                },
+                {
                     "header": "Audible",
                     "subheader": "Software Development Engineer II",
                     "text": "Devloping and maintaining an automated testing pipeline, leveraging Jenkins and AWS Device Farm to run, monitor, and report on tests for Audible's mobile apps",
                     "tags": ["Java", "AWS", "Jenkins", "DevOps"],
-                    "side_header": "October 2022 - Present"
+                    "side_header": "October 2022 - May 2025"
                 },
                 {
                     "header": "Microsoft",
